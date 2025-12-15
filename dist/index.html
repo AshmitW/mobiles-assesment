@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobiles.co.uk</title>
+    <script type="module" crossorigin src="/assets/index-BpoQBnKt.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-6jMdQMxo.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <a href="/" class="logo">
+          <img
+            src="https://media.secure-mobiles.com/website_engine/images/mobiles_2022/site/mobiles-logo-22.svg"
+            alt="Mobiles.co.uk"
+            class="logo-img" />
+        </a>
+
+        <nav class="nav-links">
+          <a href="#">Home</a>
+        </nav>
+
+        <div class="header-actions">
+          <div class="cart-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+            </svg>
+            <span class="cart-badge">0</span>
+          </div>
+
+          <button class="hamburger" id="hamburger">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <nav class="mobile-nav" id="mobile-nav">
+      <button class="mobile-nav-close" id="mobile-nav-close">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          width="24"
+          height="24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+      <div class="mobile-nav-links">
+        <a href="#">Home</a>
+      </div>
+    </nav>
+
+    <main class="main-container">
+      <aside class="filter-sidebar">
+        <div class="filter-section">
+          <h3 class="filter-title">Brands</h3>
+          <div class="filter-buttons">
+            <button class="filter-btn active" data-category="all">All</button>
+            <button class="filter-btn" data-category="apple">Apple</button>
+            <button class="filter-btn" data-category="samsung">Samsung</button>
+            <button class="filter-btn" data-category="google">Google</button>
+            <button class="filter-btn" data-category="motorola">Motorola</button>
+          </div>
+        </div>
+      </aside>
+
+      <section class="content-area">
+        <div class="content-header">
+          <select class="sort-dropdown" id="sort-dropdown">
+            <option value="default">Sort by</option>
+            <option value="low-high">Price: Low to High</option>
+            <option value="high-low">Price: High to Low</option>
+          </select>
+        </div>
+
+        <div class="product-grid" id="product-grid">
+          <div class="product-card" data-id="1" data-category="apple">
+            <img
+              src="https://media.secure-mobiles.com/product-images/apple-iphone-17-pro-256gb-deep-blue.responsive-fx.webp"
+              alt="Apple iPhone 17 Pro"
+              class="product-image" />
+            <div class="product-content">
+              <h3 class="product-name">Apple iPhone 17 Pro</h3>
+              <p class="product-description">256GB storage. 6.3" Super Retina XDR display. 48MP camera system.</p>
+              <p class="product-price">
+                <span class="price-current">£1099.99</span>
+              </p>
+              <div class="quantity-selector">
+                <button class="quantity-btn minus" data-id="1">-</button>
+                <input type="text" class="quantity-input" value="1" data-id="1" />
+                <button class="quantity-btn plus" data-id="1">+</button>
+              </div>
+              <button class="add-to-cart-btn" data-id="1">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card" data-id="2" data-category="apple">
+            <img
+              src="https://media.secure-mobiles.com/product-images/apple-iphone-17-256gb-sage.responsive-fx.webp"
+              alt="Apple iPhone 17"
+              class="product-image" />
+            <div class="product-content">
+              <h3 class="product-name">Apple iPhone 17</h3>
+              <p class="product-description">256GB storage. 6.1" display. A19 chip with enhanced AI capabilities.</p>
+              <p class="product-price">
+                <span class="price-current">£899.99</span>
+                <span class="price-original">£949.99</span>
+              </p>
+              <div class="quantity-selector">
+                <button class="quantity-btn minus" data-id="2">-</button>
+                <input type="text" class="quantity-input" value="1" data-id="2" />
+                <button class="quantity-btn plus" data-id="2">+</button>
+              </div>
+              <button class="add-to-cart-btn" data-id="2">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card" data-id="3" data-category="apple">
+            <img
+              src="media.secure-mobiles.com/product-images/apple-iphone-17-pro-max-256gb-deep-blue.responsive-fx.webp"
+              alt="Apple iPhone 17 Pro Max"
+              class="product-image" />
+            <div class="product-content">
+              <h3 class="product-name">Apple iPhone 17 Pro Max</h3>
+              <p class="product-description">256GB storage. 6.9" Super Retina XDR display. ProMotion technology.</p>
+              <p class="product-price">
+                <span class="price-current">£1199.99</span>
+                <span class="price-original">£1299.99</span>
+              </p>
+              <div class="quantity-selector">
+                <button class="quantity-btn minus" data-id="3">-</button>
+                <input type="text" class="quantity-input" value="1" data-id="3" />
+                <button class="quantity-btn plus" data-id="3">+</button>
+              </div>
+              <button class="add-to-cart-btn" data-id="3">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card" data-id="4" data-category="Google">
+            <img
+              src="https://media.secure-mobiles.com/product-images/google-pixel-10-128gb-indigo.responsive-fx.png"
+              alt="Google Pixel 10"
+              class="product-image" />
+            <div class="product-content">
+              <h3 class="product-name">Google Pixel 10</h3>
+              <p class="product-description">128GB storage. 6.3" Actua display. Tensor G5 chip with AI features.</p>
+              <p class="product-price">
+                <span class="price-current">£699.99</span>
+              </p>
+              <div class="quantity-selector">
+                <button class="quantity-btn minus" data-id="4">-</button>
+                <input type="text" class="quantity-input" value="1" data-id="4" />
+                <button class="quantity-btn plus" data-id="4">+</button>
+              </div>
+              <button class="add-to-cart-btn" data-id="4">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card" data-id="5" data-category="Google">
+            <img
+              src="https://media.secure-mobiles.com/product-images/google-pixel-10-pro-128gb-porcelain.responsive-fx"
+              alt="Google Pixel 10 Pro"
+              class="product-image" />
+            <div class="product-content">
+              <h3 class="product-name">Google Pixel 10 Pro</h3>
+              <p class="product-description">128GB storage. 6.7" LTPO display. 50MP triple camera system.</p>
+              <p class="product-price">
+                <span class="price-current">£899.99</span>
+              </p>
+              <div class="quantity-selector">
+                <button class="quantity-btn minus" data-id="5">-</button>
+                <input type="text" class="quantity-input" value="1" data-id="5" />
+                <button class="quantity-btn plus" data-id="5">+</button>
+              </div>
+              <button class="add-to-cart-btn" data-id="5" disabled>Out of Stock</button>
+            </div>
+          </div>
+
+          <div class="product-card" data-id="6" data-category="apple">
+            <img
+              src="https://media.secure-mobiles.com/product-images/apple-iphone-16-128gb-ultramarine.responsive-fx.png"
+              alt="Apple iPhone 16"
+              class="product-image" />
+            <div class="product-content">
+              <h3 class="product-name">Apple iPhone 16</h3>
+              <p class="product-description">128GB storage. 6.1" Super Retina XDR display. A18 Bionic chip.</p>
+              <p class="product-price">
+                <span class="price-current">£799.99</span>
+                <span class="price-original">£849.99</span>
+              </p>
+              <div class="quantity-selector">
+                <button class="quantity-btn minus" data-id="6">-</button>
+                <input type="text" class="quantity-input" value="1" data-id="6" />
+                <button class="quantity-btn plus" data-id="6">+</button>
+              </div>
+              <button class="add-to-cart-btn" data-id="6">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card" data-id="7" data-category="apple">
+            <img
+              src="https://media.secure-mobiles.com/product-images/apple-iphone-16e-128gb-white.responsive-fx.png"
+              alt="Apple iPhone 16e"
+              class="product-image" />
+            <div class="product-content">
+              <h3 class="product-name">Apple iPhone 16e</h3>
+              <p class="product-description">128GB storage. 6.1" Liquid Retina HD display. Great value iPhone.</p>
+              <p class="product-price">
+                <span class="price-current">£599.99</span>
+              </p>
+              <div class="quantity-selector">
+                <button class="quantity-btn minus" data-id="7">-</button>
+                <input type="text" class="quantity-input" value="1" data-id="7" />
+                <button class="quantity-btn plus" data-id="7">+</button>
+              </div>
+              <button class="add-to-cart-btn" data-id="7">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card" data-id="8" data-category="Samsung">
+            <img
+              src="https://media.secure-mobiles.com/product-images/samsung-galaxy-s25-plus-256gb-mint.responsive-fx.png"
+              alt="Samsung Galaxy S25 Plus"
+              class="product-image" />
+            <div class="product-content">
+              <h3 class="product-name">Samsung Galaxy S25 Plus</h3>
+              <p class="product-description">256GB storage. 6.7" Dynamic AMOLED display. Galaxy AI features.</p>
+              <p class="product-price">
+                <span class="price-current">£999.99</span>
+              </p>
+              <div class="quantity-selector">
+                <button class="quantity-btn minus" data-id="8">-</button>
+                <input type="text" class="quantity-input" value="1" data-id="8" />
+                <button class="quantity-btn plus" data-id="8">+</button>
+              </div>
+              <button class="add-to-cart-btn" data-id="8">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card" data-id="9" data-category="Motorola">
+            <img
+              src="https://media.secure-mobiles.com/product-images/motorola-moto-e15-64gb-citidel.responsive-fx.png"
+              alt="Motorola E15"
+              class="product-image" />
+            <div class="product-content">
+              <h3 class="product-name">Motorola E15</h3>
+              <p class="product-description">64GB storage. 6.7" HD+ display. 5000mAh battery. Budget friendly.</p>
+              <p class="product-price">
+                <span class="price-current">£149.99</span>
+                <span class="price-original">£179.99</span>
+              </p>
+              <div class="quantity-selector">
+                <button class="quantity-btn minus" data-id="9">-</button>
+                <input type="text" class="quantity-input" value="1" data-id="9" />
+                <button class="quantity-btn plus" data-id="9">+</button>
+              </div>
+              <button class="add-to-cart-btn" data-id="9">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card" data-id="10" data-category="Samsung">
+            <img
+              src="https://media.secure-mobiles.com/product-images/samsung-galaxy-a16-4g-128gb--grey.responsive-fx.png"
+              alt="Samsung Galaxy A16 4G"
+              class="product-image" />
+            <div class="product-content">
+              <h3 class="product-name">Samsung Galaxy A16 4G</h3>
+              <p class="product-description">128GB storage. 6.7" Super AMOLED display. Triple camera setup.</p>
+              <p class="product-price">
+                <span class="price-current">£199.99</span>
+              </p>
+              <div class="quantity-selector">
+                <button class="quantity-btn minus" data-id="10">-</button>
+                <input type="text" class="quantity-input" value="1" data-id="10" />
+                <button class="quantity-btn plus" data-id="10">+</button>
+              </div>
+              <button class="add-to-cart-btn" data-id="10">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card" data-id="11" data-category="Samsung">
+            <img
+              src="https://media.secure-mobiles.com/product-images/samsung-galaxy-a36-5g-256gb-black.responsive-fx.png"
+              alt="Samsung Galaxy A36 5G"
+              class="product-image" />
+            <div class="product-content">
+              <h3 class="product-name">Samsung Galaxy A36 5G</h3>
+              <p class="product-description">256GB storage. 6.6" Super AMOLED display. 50MP OIS camera.</p>
+              <p class="product-price">
+                <span class="price-current">£349.99</span>
+                <span class="price-original">£399.99</span>
+              </p>
+              <div class="quantity-selector">
+                <button class="quantity-btn minus" data-id="11">-</button>
+                <input type="text" class="quantity-input" value="1" data-id="11" />
+                <button class="quantity-btn plus" data-id="11">+</button>
+              </div>
+              <button class="add-to-cart-btn" data-id="11" disabled>Out of Stock</button>
+            </div>
+          </div>
+
+          <div class="product-card" data-id="12" data-category="Samsung">
+            <img
+              src="https://media.secure-mobiles.com/product-images/samsung-galaxy-a17-5g-128gb-black.responsive-fx.png"
+              alt="Samsung Galaxy A17 5G"
+              class="product-image" />
+            <div class="product-content">
+              <h3 class="product-name">Samsung Galaxy A17 5G</h3>
+              <p class="product-description">128GB storage. 6.7" FHD+ display. 5G connectivity. Long battery life.</p>
+              <p class="product-price">
+                <span class="price-current">£249.99</span>
+              </p>
+              <div class="quantity-selector">
+                <button class="quantity-btn minus" data-id="12">-</button>
+                <input type="text" class="quantity-input" value="1" data-id="12" />
+                <button class="quantity-btn plus" data-id="12">+</button>
+              </div>
+              <button class="add-to-cart-btn" data-id="12">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+  </body>
+</html>

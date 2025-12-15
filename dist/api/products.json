@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Apple iPhone 17 Pro",
+    "price": 1099.99,
+    "originalPrice": null,
+    "image": "https://media.secure-mobiles.com/product-images/apple-iphone-17-pro-256gb-deep-blue.responsive-fx.webp",
+    "category": "apple",
+    "inStock": true,
+    "description": "256GB storage. 6.3\" Super Retina XDR display. 48MP camera system."
+  },
+  {
+    "id": 2,
+    "name": "Apple iPhone 17",
+    "price": 899.99,
+    "originalPrice": 949.99,
+    "image": "https://media.secure-mobiles.com/product-images/apple-iphone-17-256gb-sage.responsive-fx.webp",
+    "category": "apple",
+    "inStock": true,
+    "description": "256GB storage. 6.1\" display. A19 chip with enhanced AI capabilities."
+  },
+  {
+    "id": 3,
+    "name": "Apple iPhone 17 Pro Max",
+    "price": 1199.99,
+    "originalPrice": 1299.99,
+    "image": "media.secure-mobiles.com/product-images/apple-iphone-17-pro-max-256gb-deep-blue.responsive-fx.webp",
+    "category": "apple",
+    "inStock": true,
+    "description": "256GB storage. 6.9\" Super Retina XDR display. ProMotion technology."
+  },
+  {
+    "id": 4,
+    "name": "Google Pixel 10",
+    "price": 699.99,
+    "originalPrice": null,
+    "image": "https://media.secure-mobiles.com/product-images/google-pixel-10-128gb-indigo.responsive-fx.png",
+    "category": "Google",
+    "inStock": true,
+    "description": "128GB storage. 6.3\" Actua display. Tensor G5 chip with AI features."
+  },
+  {
+    "id": 5,
+    "name": "Google Pixel 10 Pro",
+    "price": 899.99,
+    "originalPrice": null,
+    "image": "https://media.secure-mobiles.com/product-images/google-pixel-10-pro-128gb-porcelain.responsive-fx",
+    "category": "Google",
+    "inStock": false,
+    "description": "128GB storage. 6.7\" LTPO display. 50MP triple camera system."
+  },
+  {
+    "id": 6,
+    "name": "Apple iPhone 16",
+    "price": 799.99,
+    "originalPrice": 849.99,
+    "image": "https://media.secure-mobiles.com/product-images/apple-iphone-16-128gb-ultramarine.responsive-fx.png",
+    "category": "apple",
+    "inStock": true,
+    "description": "128GB storage. 6.1\" Super Retina XDR display. A18 Bionic chip."
+  },
+  {
+    "id": 7,
+    "name": "Apple iPhone 16e",
+    "price": 599.99,
+    "originalPrice": null,
+    "image": "https://media.secure-mobiles.com/product-images/apple-iphone-16e-128gb-white.responsive-fx.png",
+    "category": "apple",
+    "inStock": true,
+    "description": "128GB storage. 6.1\" Liquid Retina HD display. Great value iPhone."
+  },
+  {
+    "id": 8,
+    "name": "Samsung Galaxy S25 Plus",
+    "price": 999.99,
+    "originalPrice": null,
+    "image": "https://media.secure-mobiles.com/product-images/samsung-galaxy-s25-plus-256gb-mint.responsive-fx.png",
+    "category": "Samsung",
+    "inStock": true,
+    "description": "256GB storage. 6.7\" Dynamic AMOLED display. Galaxy AI features."
+  },
+  {
+    "id": 9,
+    "name": "Motorola E15",
+    "price": 149.99,
+    "originalPrice": 179.99,
+    "image": "https://media.secure-mobiles.com/product-images/motorola-moto-e15-64gb-citidel.responsive-fx.png",
+    "category": "Motorola",
+    "inStock": true,
+    "description": "64GB storage. 6.7\" HD+ display. 5000mAh battery. Budget friendly."
+  },
+  {
+    "id": 10,
+    "name": "Samsung Galaxy A16 4G",
+    "price": 199.99,
+    "originalPrice": null,
+    "image": "https://media.secure-mobiles.com/product-images/samsung-galaxy-a16-4g-128gb--grey.responsive-fx.png",
+    "category": "Samsung",
+    "inStock": true,
+    "description": "128GB storage. 6.7\" Super AMOLED display. Triple camera setup."
+  },
+  {
+    "id": 11,
+    "name": "Samsung Galaxy A36 5G",
+    "price": 349.99,
+    "originalPrice": 399.99,
+    "image": "https://media.secure-mobiles.com/product-images/samsung-galaxy-a36-5g-256gb-black.responsive-fx.png",
+    "category": "Samsung",
+    "inStock": false,
+    "description": "256GB storage. 6.6\" Super AMOLED display. 50MP OIS camera."
+  },
+  {
+    "id": 12,
+    "name": "Samsung Galaxy A17 5G",
+    "price": 249.99,
+    "originalPrice": null,
+    "image": "https://media.secure-mobiles.com/product-images/samsung-galaxy-a17-5g-128gb-black.responsive-fx.png",
+    "category": "Samsung",
+    "inStock": true,
+    "description": "128GB storage. 6.7\" FHD+ display. 5G connectivity. Long battery life."
+  }
+]
