@@ -7,11 +7,11 @@ export function filterByCategory(products, category) {
 }
 
 export function sortProducts(products, order) {
-  return [...products].sort((a, b) => {
+  products.sort((a, b) => {
     if (order === 'low-high') {
       return a.price > b.price;
     } else {
-      return a.price < b.price;
+      return b.price < a.price;
     }
   });
 }

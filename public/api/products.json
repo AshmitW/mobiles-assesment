@@ -24,7 +24,7 @@
     "name": "Apple iPhone 17 Pro Max",
     "price": 1199.99,
     "originalPrice": 1299.99,
-    "image": "media.secure-mobiles.com/product-images/apple-iphone-17-pro-max-256gb-deep-blue.responsive-fx.webp",
+    "image": "https://media.secure-mobiles.com/product-images/apple-iphone-17-pro-max-256gb-deep-blue.responsive-fx.webp",
     "category": "apple",
     "inStock": true,
     "description": "256GB storage. 6.9\" Super Retina XDR display. ProMotion technology."
@@ -44,7 +44,7 @@
     "name": "Google Pixel 10 Pro",
     "price": 899.99,
     "originalPrice": null,
-    "image": "https://media.secure-mobiles.com/product-images/google-pixel-10-pro-128gb-porcelain.responsive-fx",
+    "image": "https://media.secure-mobiles.com/product-images/google-pixel-10-pro-128gb-porcelain.responsive-fx.png",
     "category": "Google",
     "inStock": false,
     "description": "128GB storage. 6.7\" LTPO display. 50MP triple camera system."
